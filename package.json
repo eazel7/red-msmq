@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-msmq",
+  "version": "1.0.0",
+  "description": "Node-RED nodes for MSMQ",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eazel7/red-msmq.git"
+  },
+  "keywords": [ "node-red" ],
+  "author": {
+    "name": "Diego Pérez",
+    "email": "eazel7@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "edge-js": "^10.3.1"
+  },
+  "node-red": {
+    "nodes": {
+      "msqm-receive": "msmq-receive.js"
+    }
+  }
+}
